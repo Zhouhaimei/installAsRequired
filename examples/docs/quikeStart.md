@@ -47,7 +47,10 @@ npm install babel-plugin-component -D
       "component",
       {
         "libraryName": "jy-required-import",
-        "styleLibraryName": "theme"
+        "styleLibrary":{
+            "name":"theme",// 相当于"styleLibraryName": "theme"
+            "base":false
+        }
       }
     ]
   ]
